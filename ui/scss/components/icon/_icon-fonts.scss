@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "icons";
+	src: url('../../fonts/icon-fonts/icons.eot');
+	src: url('../../fonts/icon-fonts/icons.eot?#iefix') format('eot'),
+		url('../../fonts/icon-fonts/icons.woff') format('woff'),
+		url('../../fonts/icon-fonts/icons.ttf') format('truetype'),
+		url('../../fonts/icon-fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-Dissatisfied:before {
+	content: "\E001";
+}
+
+.icon-Neutral:before {
+	content: "\E002";
+}
+
+.icon-Satisfied:before {
+	content: "\E003";
+}
+
+.icon-Very_Dissatisfied:before {
+	content: "\E004";
+}
+
+.icon-Very_Satisfied:before {
+	content: "\E005";
+}
+
+.icon-alchemy-language:before {
+	content: "\E006";
+}
+
+.icon-caret:before {
+	content: "\E007";
+}
+
+.icon-link:before {
+	content: "\E008";
+}
+
+.icon-natural-language-classifier:before {
+	content: "\E009";
+}
+
+.icon-no:before {
+	content: "\E00A";
+}
+
+.icon-personality-insights:before {
+	content: "\E00B";
+}
+
+.icon-reset:before {
+	content: "\E00C";
+}
+
+.icon-service-icon:before {
+	content: "\E00D";
+}
+
+.icon-tone-analyzer:before {
+	content: "\E00E";
+}
+
+.icon-x:before {
+	content: "\E00F";
+}
+
+.icon-yes:before {
+	content: "\E010";
+}

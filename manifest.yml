@@ -1,0 +1,23 @@
+declared-services:
+  # Natural Language Classifier
+  Natural Language Classifier-Demo:
+    label: natural_language_classifier
+    plan: standard
+  # Personality Insights
+  Personality Insights-Demo:
+    label: personality_insights
+    plan: tiered
+  # Tone Analyzer
+  Tone Analyzer-Demo:
+    label: tone_analyzer
+    plan: standard
+applications:
+- services:
+   - Natural Language Classifier-Demo
+   - Personality Insights-Demo
+   - Tone Analyzer-Demo
+  # Application name
+  name: xxxxxxxxxxxxxxx
+  command: npm start
+  path: .
+  memory: 512M
